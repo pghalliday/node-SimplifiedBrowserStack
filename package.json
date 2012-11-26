@@ -1,5 +1,5 @@
 {
-  "name": "node-SimplifiedBrowserStack",
+  "name": "simplified-browserstack",
   "description": "A simplified interface for starting and stopping BrowserStack workers",
   "version": "0.0.1",
   "homepage": "https://github.com/pghalliday/node-SimplifiedBrowserStack.git",

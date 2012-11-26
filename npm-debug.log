@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose read json C:\Users\pghalliday\Documents\GitHub\node-SimplifiedBrowserStack\package.json
+7 verbose cache add [ '.', null ]
+8 silly cache add name=undefined spec="." args=[".",null]
+9 verbose parsed url { pathname: '.', path: '.', href: '.' }
+10 silly lockFile 3a52ce78- .
+11 verbose lock . C:\Users\pghalliday\AppData\Roaming\npm-cache\3a52ce78-.lock
+12 verbose read json package.json
+13 verbose tar pack [ 'C:\\Users\\PGHALL~1\\AppData\\Local\\Temp\\npm-6080\\1353944288840-0.6996744628995657\\tmp.tgz',
+13 verbose tar pack   '.' ]
+14 verbose tarball C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\tmp.tgz
+15 verbose folder .
+16 info prepublish node-SimplifiedBrowserStack@0.0.1
+17 silly lockFile 5f051aa1-88840-0-6996744628995657-tmp-tgz C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\tmp.tgz
+18 verbose lock C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\tmp.tgz C:\Users\pghalliday\AppData\Roaming\npm-cache\5f051aa1-88840-0-6996744628995657-tmp-tgz.lock
+19 silly lockFile 5f051aa1-88840-0-6996744628995657-tmp-tgz C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\tmp.tgz
+20 verbose tar unpack C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\tmp.tgz
+21 silly lockFile 8ea00c63-88840-0-6996744628995657-package C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\package
+22 verbose lock C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\package C:\Users\pghalliday\AppData\Roaming\npm-cache\8ea00c63-88840-0-6996744628995657-package.lock
+23 silly gunzTarPerm modes [ '755', '644' ]
+24 silly gunzTarPerm extractEntry package.json
+25 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+26 silly gunzTarPerm extractEntry .npmignore
+27 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+30 silly gunzTarPerm extractEntry grunt.js
+31 silly gunzTarPerm modified mode [ 'grunt.js', 438, 420 ]
+32 silly gunzTarPerm extractEntry LICENSE-MIT
+33 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+34 silly gunzTarPerm extractEntry grunt.bat
+35 silly gunzTarPerm modified mode [ 'grunt.bat', 438, 420 ]
+36 silly gunzTarPerm extractEntry src/SimplifiedBrowserStack.js
+37 silly gunzTarPerm modified mode [ 'src/SimplifiedBrowserStack.js', 438, 420 ]
+38 silly gunzTarPerm extractEntry test/Mocks/MockBrowserstack.js
+39 silly gunzTarPerm modified mode [ 'test/Mocks/MockBrowserstack.js', 438, 420 ]
+40 silly gunzTarPerm extractEntry test/src/SimplifiedBrowserStack.js
+41 silly gunzTarPerm modified mode [ 'test/src/SimplifiedBrowserStack.js', 438, 420 ]
+42 silly gunzTarPerm extractEntry grunt.sh
+43 silly gunzTarPerm modified mode [ 'grunt.sh', 438, 420 ]
+44 silly gunzTarPerm extractEntry Mocks/MockBrowserstack.js
+45 silly gunzTarPerm modified mode [ 'Mocks/MockBrowserstack.js', 438, 420 ]
+46 verbose read json C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\package\package.json
+47 silly lockFile 8ea00c63-88840-0-6996744628995657-package C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\package
+48 verbose from cache C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\package\package.json
+49 verbose tar pack [ 'C:\\Users\\pghalliday\\AppData\\Roaming\\npm-cache\\node-SimplifiedBrowserStack\\0.0.1\\package.tgz',
+49 verbose tar pack   'C:\\Users\\PGHALL~1\\AppData\\Local\\Temp\\npm-6080\\1353944288840-0.6996744628995657\\package' ]
+50 verbose tarball C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package.tgz
+51 verbose folder C:\Users\PGHALL~1\AppData\Local\Temp\npm-6080\1353944288840-0.6996744628995657\package
+52 silly lockFile e5fd7e66-edBrowserStack-0-0-1-package-tgz C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package.tgz
+53 verbose lock C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package.tgz C:\Users\pghalliday\AppData\Roaming\npm-cache\e5fd7e66-edBrowserStack-0-0-1-package-tgz.lock
+54 silly lockFile e5fd7e66-edBrowserStack-0-0-1-package-tgz C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package.tgz
+55 silly lockFile fd12b909-lifiedBrowserStack-0-0-1-package C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package
+56 verbose lock C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package C:\Users\pghalliday\AppData\Roaming\npm-cache\fd12b909-lifiedBrowserStack-0-0-1-package.lock
+57 silly lockFile fd12b909-lifiedBrowserStack-0-0-1-package C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package
+58 verbose tar unpack C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package.tgz
+59 silly lockFile fd12b909-lifiedBrowserStack-0-0-1-package C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package
+60 verbose lock C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package C:\Users\pghalliday\AppData\Roaming\npm-cache\fd12b909-lifiedBrowserStack-0-0-1-package.lock
+61 silly gunzTarPerm modes [ '755', '644' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+68 silly gunzTarPerm extractEntry grunt.js
+69 silly gunzTarPerm modified mode [ 'grunt.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry grunt.bat
+71 silly gunzTarPerm modified mode [ 'grunt.bat', 438, 420 ]
+72 silly gunzTarPerm extractEntry grunt.sh
+73 silly gunzTarPerm modified mode [ 'grunt.sh', 438, 420 ]
+74 silly gunzTarPerm extractEntry LICENSE-MIT
+75 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+76 silly gunzTarPerm extractEntry Mocks/MockBrowserstack.js
+77 silly gunzTarPerm modified mode [ 'Mocks/MockBrowserstack.js', 438, 420 ]
+78 silly gunzTarPerm extractEntry src/SimplifiedBrowserStack.js
+79 silly gunzTarPerm modified mode [ 'src/SimplifiedBrowserStack.js', 438, 420 ]
+80 silly gunzTarPerm extractEntry test/Mocks/MockBrowserstack.js
+81 silly gunzTarPerm modified mode [ 'test/Mocks/MockBrowserstack.js', 438, 420 ]
+82 silly gunzTarPerm extractEntry test/src/SimplifiedBrowserStack.js
+83 silly gunzTarPerm modified mode [ 'test/src/SimplifiedBrowserStack.js', 438, 420 ]
+84 verbose read json C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package\package.json
+85 silly lockFile fd12b909-lifiedBrowserStack-0-0-1-package C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package
+86 silly shasum updated bytes 7953
+87 info shasum 553d10a3bf7fd5635324f4f2974d407ed79e1c62
+87 info shasum C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package.tgz
+88 verbose from cache C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package\package.json
+89 verbose chmod C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package.tgz 644
+90 silly chown skipping for windows C:\Users\pghalliday\AppData\Roaming\npm-cache\node-SimplifiedBrowserStack\0.0.1\package.tgz
+91 silly lockFile 3a52ce78- .
+92 silly publish { name: 'node-SimplifiedBrowserStack',
+92 silly publish   description: 'A simplified interface for starting and stopping BrowserStack workers',
+92 silly publish   version: '0.0.1',
+92 silly publish   homepage: 'https://github.com/pghalliday/node-SimplifiedBrowserStack.git',
+92 silly publish   author:
+92 silly publish    { name: 'Peter Halliday',
+92 silly publish      email: 'pghalliday@gmail.com',
+92 silly publish      url: 'http://stuffpetedoes.blogspot.nl/' },
+92 silly publish   repository:
+92 silly publish    { type: 'git',
+92 silly publish      url: 'git://github.com/pghalliday/node-SimplifiedBrowserStack.git' },
+92 silly publish   bugs: { url: 'https://github.com/pghalliday/node-SimplifiedBrowserStack/issues' },
+92 silly publish   licenses:
+92 silly publish    [ { type: 'MIT',
+92 silly publish        url: 'https://github.com/pghalliday/node-SimplifiedBrowserStack/blob/master/LICENSE-MIT' } ],
+92 silly publish   main: 'src/SimplifiedBrowserStack.js',
+92 silly publish   engines: { node: '>= 0.8.12' },
+92 silly publish   scripts: { test: 'grunt' },
+92 silly publish   dependencies: { async: '~0.1.22', browserstack: '~0.2.0' },
+92 silly publish   devDependencies:
+92 silly publish    { grunt: '0.3.17',
+92 silly publish      'grunt-mocha-test': '0.0.1',
+92 silly publish      'expect.js': '~0.2.0',
+92 silly publish      'node-uuid': '~1.4.0',
+92 silly publish      proxyquire: '~0.3.5',
+92 silly publish      checklist: '0.0.6' },
+92 silly publish   keywords: [],
+92 silly publish   readme: 'node-SimplifiedBrowserStack\n=========\n\nA simplified interface for starting and stopping BrowserStack workers\n\n## Features\n\n- #list\n  - should list all available browsers\n  - should fail if not authorized\n- #start\n  - should return a list of running workers pointing at the correct URL\n  - should fail if not authorized\n  - should fail if a worker cannot be started and terminate any workers that were started\n  - should fail if an error is encountered while waiting for workers to start\n  - should fail if workers are not running within specified timeout value\n  - should fail if already started\n- #stop\n  - should fail if not started\n  - when started\n    - should terminate all (and only) the workers previously started by this instance\n    - should fail if a worker cannot be terminated\n- #clean\n  - should terminate all the workers associated with the given credentials\n  - should fail if started\n  - should fail if not authorized\n\n## Installation\n\n```\nnpm install node-SimplifiedBrowserStack\n```\n\n## API\n\n```javascript\nvar SimplifiedBrowserStack = require(\'node-SimplifiedBrowserStack\');\n\nvar simplifiedBrowserStack = new SimplifiedBrowserStack({\n  username: \'USERNAME\',\n  password: \'PASSWORD\'\n});\n\nsimplifiedBrowserStack.list(function(error, browsers) {\n  // browsers will be an array of available browser types\n});\n\nsimplifiedBrowserStack.start({\n  // time to wait for workers to start running\n  queueTimeout: QUEUE_TIMEOUT,\n  // default URL for started workers\n  url: \'URL\',\n  // default timeout for started workers\n  timeout: TIMEOUT,\n  // list of browser types to start, as returned from the list function\n  browsers: [{\n    os: \'OS\',\n    browser: \'BROWSER\',\n    version: \'VERSION\',\n    // override the default URL\n    url: \'URL\',\n    // override the default worker timeout\n    timeout: TIMEOUT\n  }, {\n    os: \'OS\',\n    browser: \'BROWSER\',\n    version: \'VERSION\',\n    // override the default URL\n    url: \'URL\',\n    // override the default worker timeout\n    timeout: TIMEOUT\n  }]\n}, function(errors, workers) {\n  // the workers array will contain the started worker IDs\n\n  simplifiedBrowserStack.stop(function(errors) {\n    // the workers will have been stopped\n\n    // errors may be reported if a worker has already timed out\n    // but any running workers should have been stopped anyway\n  });\n});\n\nsimplifiedBrowserStack.clean(function(errors) {\n  // Should stop any workers associated with the\n  // BrowserStack account\n\n  // useful for cleaning up orphaned workers\n});\n\n```\n\n## Roadmap\n\n- Nothing yet\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using ``./grunt.sh`` or ``.\\grunt.bat``.\n\n## License\nCopyright (c) 2012 Peter Halliday  \nLicensed under the MIT license.',
+92 silly publish   readmeFilename: 'README.md',
+92 silly publish   _id: 'node-SimplifiedBrowserStack@0.0.1',
+92 silly publish   dist: { shasum: '553d10a3bf7fd5635324f4f2974d407ed79e1c62' } }
+93 verbose url raw node-SimplifiedBrowserStack
+94 verbose url resolving [ 'https://registry.npmjs.org/',
+94 verbose url resolving   './node-SimplifiedBrowserStack' ]
+95 verbose url resolved https://registry.npmjs.org/node-SimplifiedBrowserStack
+96 info trying registry request attempt 1 at 16:38:09
+97 http PUT https://registry.npmjs.org/node-SimplifiedBrowserStack
+98 http 403 https://registry.npmjs.org/node-SimplifiedBrowserStack
+99 error publish Failed PUT response 403
+100 error Error: forbidden New packages must have all-lowercase names: node-SimplifiedBrowserStack
+100 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:259:14)
+100 error     at Request.init.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:120:22)
+100 error     at Request.EventEmitter.emit (events.js:99:17)
+100 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:648:16)
+100 error     at Request.EventEmitter.emit (events.js:126:20)
+100 error     at IncomingMessage.Request.start.self.req.self.httpModule.request.buffer (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:610:14)
+100 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+100 error     at IncomingMessage._emitEnd (http.js:366:10)
+100 error     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+100 error     at CleartextStream.socketOnData [as ondata] (http.js:1367:20)
+101 error If you need help, you may report this log at:
+101 error     <http://github.com/isaacs/npm/issues>
+101 error or email it to:
+101 error     <npm-@googlegroups.com>
+102 error System Windows_NT 6.1.7601
+103 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+104 error cwd C:\Users\pghalliday\Documents\GitHub\node-SimplifiedBrowserStack
+105 error node -v v0.8.14
+106 error npm -v 1.1.65
+107 verbose exit [ 1, true ]

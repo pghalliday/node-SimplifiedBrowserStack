@@ -28,13 +28,13 @@ A simplified interface for starting and stopping BrowserStack workers
 ## Installation
 
 ```
-npm install node-SimplifiedBrowserStack
+npm install simplified-browserstack
 ```
 
 ## API
 
 ```javascript
-var SimplifiedBrowserStack = require('node-SimplifiedBrowserStack');
+var SimplifiedBrowserStack = require('simplified-browserStack');
 
 var simplifiedBrowserStack = new SimplifiedBrowserStack({
   username: 'USERNAME',
