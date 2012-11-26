@@ -1,0 +1,44 @@
+{
+  "name": "node-SimplifiedBrowserStack",
+  "description": "A simplified interface for starting and stopping BrowserStack workers",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pghalliday/node-SimplifiedBrowserStack.git",
+  "author": {
+    "name": "Peter Halliday",
+    "email": "pghalliday@gmail.com",
+    "url": "http://stuffpetedoes.blogspot.nl/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pghalliday/node-SimplifiedBrowserStack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pghalliday/node-SimplifiedBrowserStack/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pghalliday/node-SimplifiedBrowserStack/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "src/SimplifiedBrowserStack.js",
+  "engines": {
+    "node": ">= 0.8.12"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "async": "~0.1.22",
+    "browserstack": "~0.2.0"
+  },
+  "devDependencies": {
+    "grunt": "0.3.17",
+    "grunt-mocha-test": "0.0.1",
+    "expect.js": "~0.2.0",
+    "node-uuid": "~1.4.0",
+    "proxyquire": "~0.3.5",
+    "checklist": "0.0.6"
+  },
+  "keywords": []
+}
