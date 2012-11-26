@@ -288,7 +288,7 @@ describe('SimplifiedBrowserStack', function() {
       });
     });
 
-    it('should terminate all the workers', function(done) {
+    it('should terminate all the workers associated with the given credentials', function(done) {
       client.createWorker(VALID_BROWSER_1, function(error, extraWorker) {
         client.createWorker(VALID_BROWSER_2, function(error, extraWorker) {
           client.createWorker(VALID_BROWSER_3, function(error, extraWorker) {
